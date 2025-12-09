@@ -1,0 +1,9 @@
+#gameboard {
+    display: grid;
+    grid-template: 150px 150px 150px / 150px 150px 150px; 
+    width: 450px;
+    margin: 50px auto; /* Center the board */
+}
+.box {
+    border: 2px solid black;
+}
