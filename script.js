@@ -136,19 +136,19 @@ for (let i = 0; i < arrayVar; i++) {
     
     // Check if the player matches the horizontal function
     if (player1Horizontal() === 3) {
-      console.log("Player 1 Wins!");
+      console.log(`${player1.name} Wins!`);
       break;
     }
 
     // Check if the player matches the vertical function
     else if (player1Vertical() === 3) {
-      console.log("Player 1 Wins!");
+      console.log(`${player1.name} Wins!`);
       break;
     }
 
     // Check if the player matches the diagonal function
     else if (player1Diagonal() === 3) {
-      console.log("Player 1 Wins!");
+      console.log(`${player1.name} Wins!`);
       break;
     }
 
@@ -248,24 +248,20 @@ for (let i = 0; i < arrayVar; i++) {
     
     // Check if the player matches the horizontal function
     if (player2Horizontal() === 3) {
-      console.log("Player 2 Wins!");
+      console.log(`${player2.name} Wins!`);
       break;
     }
 
     // Check if the player matches the vertical function
     else if (player2Vertical() === 3) {
-      console.log("Player 2 Wins!");
+      console.log(`${player2.name} Wins!`);
       break;
     }
 
     // Check if the player matches the horizontal function
     else if (player2Diagonal() === 3) {
-      console.log("Player 2 Wins!");
+      console.log(`${player2.name} Wins!`);
       break;
     }
   }
 }
-
-// Print the arrays of the players to the console
-console.log("Player 1:", player1.array);
-console.log("Player 2:", player2.array);
