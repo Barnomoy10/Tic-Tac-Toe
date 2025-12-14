@@ -261,9 +261,7 @@ const game = ( () => {
       }
     }
   }
-  return {createPlayer1, createPlayer2, gameflow}
+  return { gameflow }
 })();
 
-game.createPlayer1();
-game.createPlayer2();
 game.gameflow();
