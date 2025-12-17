@@ -5,5 +5,8 @@
     margin: 50px auto; /* Center the board */
 }
 .box {
+    text-align: center;
     border: 2px solid black;
+    font-size: 100px;
+    padding-top: 10px;
 }
