@@ -12,8 +12,16 @@ const game = (function () {
   // Create a gameflow object which controls the flow of the game
   const gameflow = () => {
     let player1Name = prompt("Enter the name of Player 1:");
+
+    while (player1Name === "" || player1Name === null) {
+      player1Name = prompt("Enter the name of Player 1:");
+    }
+
     let player2Name = prompt("Enter the name of Player 2:");
 
+    while (player2Name === "" || player2Name === null) {
+      player2Name = prompt("Enter the name of Player 2:");
+    } 
     const Player1 = createPlayer1(player1Name);
     const Player2 = createPlayer2(player2Name);
 
